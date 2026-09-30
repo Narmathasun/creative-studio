@@ -1,0 +1,11 @@
+   {
+     "name": "Creative Studio",
+     "image": "mcr.microsoft.com/devcontainers/python:3.11",
+     "forwardPorts": [7860],
+     "postCreateCommand": "pip install -r requirements.txt -r requirements-dev.txt",
+     "customizations": {
+       "vscode": {
+         "extensions": ["ms-python.python", "charliermarsh.ruff"]
+       }
+     }
+   }
